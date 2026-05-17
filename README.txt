@@ -10,8 +10,11 @@ TECNOLOGÍAS USADAS:
 - MediaPipe
 - Pygame
 
-Uso:
-```bash
+COMO EJECUTAR (TERMINAL POWERSHELL):
+git clone https://github.com/soyluchito/Handtracker-1.0.0.git
+cd Handtracker-1.0.0
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python main.py
 
